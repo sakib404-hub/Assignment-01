@@ -2,6 +2,9 @@
     margin:0;
     padding: 0;
 }
+body{
+    background-color: aliceblue;
+}
 /* Shared Color */
 .btn-color{
     color: #4E47FF;
@@ -10,6 +13,7 @@
     background-color: #4E47FF;
     color: white;
 }
+
 
 /* Raleway Fonts Importing with CSS */
 
@@ -90,4 +94,38 @@ nav ul li{
     padding: 8px 20px;
     border-radius: 10px;
     border: none;
+}
+
+/* Styling the Section-actionbar*/
+.section-actionbar{
+    width: 1240px;
+    height: 330px;
+    margin: 120px auto 120px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-actionbar-content{
+    height: 205px;
+    width: 520px;
+}
+.section-actionbar-image{
+    height: 330px;
+    width: 405px;
+    background-image: url("asset/wc-mini.png");
+    border-radius: 20px;
+}
+.content-styling{
+    font-size: 24px;
+    margin: 23px 0px;
+}
+.heading-style{
+    font-size: 42px;
+}
+.btn2{
+    padding: 6px 6px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
 }
