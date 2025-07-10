@@ -4,8 +4,12 @@
 }
 /* Shared Color */
 .btn-color{
+    color: #4E47FF;
+}
+.btn-color2{
     background-color: #4E47FF;
 }
+
 /* Raleway Fonts Importing with CSS */
 
 .raleway-fonts{
@@ -13,4 +17,50 @@
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+}
+
+/* Styling the Navigation bar  */
+.head-container{
+    height: 700px;
+    width: 100%;
+    border: 2px solid black;
+    background-image: url("asset/Hero-bg.png");
+    background-repeat: none;
+    background-size: cover;
+}
+nav{
+    height: 140px;
+    width: 1240px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.logo{
+    font-size: 34px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.sign-up{
+    padding: 12px 34px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    color: white;
+    cursor: pointer;
+}
+
+.sign-up:hover{
+    border: 2px solid white;
 }
