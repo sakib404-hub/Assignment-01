@@ -8,6 +8,7 @@
 }
 .btn-color2{
     background-color: #4E47FF;
+    color: white;
 }
 
 /* Raleway Fonts Importing with CSS */
@@ -63,4 +64,30 @@ nav ul li{
 
 .sign-up:hover{
     border: 2px solid white;
+}
+
+/* hero-section Styling */
+.hero-section{
+    width: 910px;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-section-content{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-section-button{
+    margin-top: 40px;
+}
+.hero-section-button button{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
 }
