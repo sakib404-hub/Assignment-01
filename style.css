@@ -13,7 +13,9 @@ body{
     background-color: #4E47FF;
     color: white;
 }
-
+.center{
+    text-align: center;
+}
 
 /*Fonts Importing with CSS */
 
@@ -35,7 +37,7 @@ body{
 .head-container{
     height: 700px;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-image: url("asset/Hero-bg.png");
     background-repeat: none;
     background-size: cover;
@@ -44,7 +46,7 @@ nav{
     height: 140px;
     width: 1240px;
     margin: 0 auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     align-items: center;
 }
@@ -81,7 +83,7 @@ nav ul li{
 .hero-section{
     width: 910px;
     margin: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 160px;
     display: flex;
     flex-direction: column;
@@ -222,7 +224,7 @@ nav ul li{
 .focus-section{
     height: 550px;
     width: 1000px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 137px auto 95px;
     padding: 70px 120px;
     background-color: white;
@@ -287,4 +289,33 @@ label, input, textarea{
     padding: 8px;
     border-radius: 8px;
     border: none;
+}
+
+/* Footer-Section-Styling  */
+footer{
+    width: 100%;
+    height: 430px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.footer-content{
+    height: 220px;
+    width: 530px;
+    /* border: 2px solid black; */
+}
+.footer-content ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.footer-content ul li{
+    list-style: none;
+}
+.footer-heading{
+    color: #4E47FF;
+    font-weight: bolder;
+    font-size: 100px;
 }
