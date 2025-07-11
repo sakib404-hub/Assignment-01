@@ -16,6 +16,11 @@ body{
 .center{
     text-align: center;
 }
+.btn:hover{
+    background: #6B6DF6; 
+  box-shadow: 0 8px 16px rgba(93, 95, 239, 0.4); 
+  transform: translateY(-2px);
+}
 
 /*Fonts Importing with CSS */
 
@@ -66,6 +71,9 @@ nav ul li{
     font-weight: 900;
     cursor: pointer;
 }
+.logo-design{
+    color: #7B4DFF;
+}
 
 .sign-up{
     padding: 12px 34px;
@@ -73,10 +81,13 @@ nav ul li{
     border: 1px solid #ffffff;
     color: white;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .sign-up:hover{
-    border: 2px solid white;
+  background: #6B6DF6; 
+  box-shadow: 0 8px 16px rgba(93, 95, 239, 0.4); 
+  transform: translateY(-2px); 
 }
 
 /* hero-section Styling */
@@ -103,6 +114,9 @@ nav ul li{
     padding: 8px 20px;
     border-radius: 10px;
     border: none;
+    transition: all 0.3s ease;
+    border: 2px solid #ffffff;
+    cursor: pointer;
 }
 
 /* Styling the Section-actionbar*/
@@ -136,6 +150,9 @@ nav ul li{
     padding: 6px 6px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #ffffff;
     cursor: pointer;
 }
 
@@ -210,6 +227,9 @@ nav ul li{
     background-color: white;
     border-radius: 8px;
 }
+.user-sub-heading{
+    margin: 8px 0px;
+}
 .user-profile{
     display: flex;
     gap: 8px;
@@ -254,6 +274,9 @@ nav ul li{
     padding: 8px;
     border-radius: 8px;
     border: none;
+    transition: all 0.3s ease;
+    border: 2px solid #ffffff;
+    cursor: pointer;
 }
 /* Styling the last section  */
 .form-section{
@@ -289,6 +312,9 @@ label, input, textarea{
     padding: 8px;
     border-radius: 8px;
     border: none;
+    transition: all 0.3s ease;
+    border: 2px solid #ffffff;
+    cursor: pointer;
 }
 
 /* Footer-Section-Styling  */
@@ -305,6 +331,10 @@ footer{
     height: 220px;
     width: 530px;
     /* border: 2px solid black; */
+}
+.footer-content ul li a{
+    text-decoration: none;
+    color: black;
 }
 .footer-content ul{
     display: flex;
